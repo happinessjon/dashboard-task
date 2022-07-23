@@ -4,10 +4,11 @@ import QuestionMarkIcon from "../icons/question-mark.svg";
 import MasterCardIcon from "../icons/master-card.svg";
 import CubeIcon from "../icons/cube.svg";
 import StatisticsList from "../components/StatisticsList.vue";
+import LatestTransactionsList from "../components/LatestTransactionsList.vue";
 </script>
 
 <template>
-  <div class="px-8 pb-[50px]  trasform -translate-y-[120px] border-b-2 border-gray-200" >
+  <div class="px-8 pb-[30px]  trasform -translate-y-[120px]" >
     <ul class="grid grid-cols-3 gap-x-5">
       <li class="rounded-[16px] bg-sky-400 px-5 py-6">
         <div class="mb-[80px] flex justify-between">
@@ -63,6 +64,8 @@ import StatisticsList from "../components/StatisticsList.vue";
         </div>
       </li>
     </ul>
-    <StatisticsList class="mt-[100px]" />
+    <StatisticsList class="mt-[80px] mb-[40px] py-[35px] border-y-2 border-gray-200" />
+    <LatestTransactionsList />
+
   </div>
 </template>
