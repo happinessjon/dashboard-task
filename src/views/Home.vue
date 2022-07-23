@@ -11,7 +11,7 @@ import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue
 <template>
   <div class="px-8 pb-[30px]  trasform -translate-y-[120px]" >
     <ul class="grid grid-cols-3 gap-x-5">
-      <li class="rounded-[16px] bg-sky-400 px-5 py-6">
+      <li class="rounded-[16px] bg-blue-100 px-5 py-6">
         <div class="mb-[80px] flex justify-between">
           <p class="text-xs font-semibold capitalize">Your working balance</p>
           <p
@@ -31,7 +31,7 @@ import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue
         </div>
       </li>
 
-      <li class="rounded-[16px] bg-sky-400 px-5 py-6">
+      <li class="rounded-[16px] bg-pink-100 px-5 py-6">
         <div class="mb-[60px] flex items-center justify-between">
           <p class="text-xs font-semibold capitalize">Your saving status</p>
           <button class="cursor-pointer">
@@ -47,7 +47,7 @@ import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue
         </div>
       </li>
 
-      <li class="rounded-[16px] bg-sky-400 px-5 pt-2 pb-6">
+      <li class="rounded-[16px] bg-green-200 px-5 pt-2 pb-6">
         <div class="flex flex-col">
           <MasterCardIcon class="h-12 w-12" />
           <span class="text-[10px] mb-2 uppercase">Card number</span>

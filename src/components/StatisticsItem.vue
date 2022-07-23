@@ -4,7 +4,7 @@ import ChartIcon from "../icons/chart-bar-chart-svgrepo-com.svg";
 import ArrowTopIcon from "../icons/arrow-top-right-svgrepo-com.svg";
 const props = defineProps({
     data: {
-        type: Array, 
+        type: Object, 
         required: true,
     }
 })

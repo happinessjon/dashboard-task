@@ -42,17 +42,17 @@ import InboxIcon from "../icons/inbox.svg";
           <DotsIcon class="h-6 w-6 stroke-current" />
         </button>
       </div>
-      <ul class="grid grid-cols-2 items-center gap-x-4">
+      <ul class="grid grid-cols-2 items-center gap-x-6">
         <li>
           <a
-            class="font-medium text-darkgray transition duration-500 ease-in-out hover:text-gray-800"
+            class="font-medium text-sm text-darkgray transition duration-500 ease-in-out hover:text-gray-800"
             href="#"
             >Wallet</a
           >
         </li>
         <li>
           <a
-            class="font-medium text-darkgray transition duration-500 ease-in-out hover:text-gray-800"
+            class="font-medium text-sm text-darkgray transition duration-500 ease-in-out hover:text-gray-800"
             href="#"
             >Invoice</a
           >
@@ -61,7 +61,7 @@ import InboxIcon from "../icons/inbox.svg";
       <button
         class="duration-400 ml-auto flex h-11 items-center justify-center rounded-full px-2 transition ease-linear hover:bg-blue-300 hover:text-white"
       >
-        <span class="pl-2 text-sm">Hi, Alexander</span>
+        <span class="pl-2 font-medium text-sm">Hi, Alexander</span>
         <img
           src="/img/avatar-1.jpeg"
           alt="Profile image"

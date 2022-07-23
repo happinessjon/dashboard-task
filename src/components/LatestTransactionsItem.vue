@@ -3,7 +3,7 @@ import { defineProps, computed } from "vue";
 import ArrowRightIcon from "../icons/arrow-right.svg";
 const props = defineProps({
     data: {
-        type: Array,
+        type: Object,
         required: true,
     }
 })
