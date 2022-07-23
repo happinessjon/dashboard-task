@@ -26,18 +26,18 @@ import InboxIcon from "../icons/inbox.svg";
     <div class="flex flex-grow items-center justify-between">
       <div class="mr-auto flex items-center gap-x-2.5">
         <button
-          class="duration-400 flex h-11 w-11 items-center justify-center rounded-full transition ease-linear hover:bg-blue-300 hover:text-white"
+          class="duration-400 flex h-10 w-10 items-center justify-center rounded-full transition ease-linear hover:bg-blue-300 hover:text-white"
         >
           <MailIcon class="h-7 w-7 stroke-current" />
         </button>
 
         <button
-          class="duration-400 flex h-11 w-11 items-center justify-center rounded-full transition ease-linear hover:bg-blue-300 hover:text-white"
+          class="duration-400 flex h-10 w-10 items-center justify-center rounded-full transition ease-linear hover:bg-blue-300 hover:text-white"
         >
           <InboxIcon class="h-7 w-7 stroke-current" />
         </button>
         <button
-          class="duration-400 flex h-11 w-11 items-center justify-center rounded-full transition ease-linear hover:bg-blue-300 hover:text-white"
+          class="duration-400 flex h-10 w-10 items-center justify-center rounded-full transition ease-linear hover:bg-blue-300 hover:text-white"
         >
           <DotsIcon class="h-6 w-6 stroke-current" />
         </button>

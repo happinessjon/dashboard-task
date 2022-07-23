@@ -44,7 +44,7 @@ const setBackground = computed(() => {
                     :class="setColor"
                 >{{ props.data.numberOfTasks }}</span>
                 <p class="flex rounded-[12px] px-2 items-center" :class="[setColor, setBackground]">
-                    <span>{{ props.data.amountOfIncreasing }}</span>
+                    <span class="text-xs font-semibold">{{ props.data.amountOfIncreasing }}</span>
                     <ArrowTopIcon />
                 </p>
             </div>

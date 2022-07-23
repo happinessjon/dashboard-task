@@ -5,6 +5,7 @@ import MasterCardIcon from "../icons/master-card.svg";
 import CubeIcon from "../icons/cube.svg";
 import StatisticsList from "../components/StatisticsList.vue";
 import LatestTransactionsList from "../components/LatestTransactionsList.vue";
+import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue";
 </script>
 
 <template>
@@ -65,7 +66,10 @@ import LatestTransactionsList from "../components/LatestTransactionsList.vue";
       </li>
     </ul>
     <StatisticsList class="mt-[80px] mb-[40px] py-[35px] border-y-2 border-gray-200" />
-    <LatestTransactionsList />
+    <div class="flex">
+      <LatestTransactionsList />
+      <UpcomingTransactionsList />
+    </div>
 
   </div>
 </template>
