@@ -9,19 +9,19 @@ import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue
 </script>
 
 <template>
-  <div class="px-8 pb-[30px]  trasform -translate-y-[120px]" >
-    <ul class="grid grid-cols-3 gap-x-5">
-      <li class="rounded-[16px] bg-blue-100 px-5 py-6">
-        <div class="mb-[80px] flex justify-between">
+  <div class="trasform -translate-y-[120px] px-3 md:px-8 pb-[30px] " >
+    <ul class="grid gap-x-5 sm:grid-cols-1 gap-y-5 md:grid-cols-2 lg:grid-cols-3">
+      <li class="flex flex-col justify-between rounded-[16px] bg-blue-100 px-5 py-6">
+        <div class="mb-[100px] flex justify-between">
           <p class="text-xs font-semibold capitalize">Your working balance</p>
           <p
-            class="text-xs font-semibold capitalize text-darkgray underline decoration-2 underline-offset-4"
+            class="font-semibold capitalize text-darkgray underline decoration-2 underline-offset-4 whitespace-nowrap text-[10px]"
           >
             Saving account
           </p>
         </div>
         <div class="flex justify-between">
-          <p class="text-[28px] font-semibold uppercase">PKR 9,250,000</p>
+          <p class="font-semibold uppercase xl:text-[26px] lg:text-[22px]">PKR 9,250,000</p>
           <button
             class="inline-flex items-center gap-x-1 rounded-10 text-xs font-semibold uppercase text-gray-700 hover:text-white"
           >
@@ -31,7 +31,7 @@ import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue
         </div>
       </li>
 
-      <li class="rounded-[16px] bg-pink-100 px-5 py-6">
+      <li class="flex flex-col justify-between rounded-[16px] bg-pink-100 px-5 py-6">
         <div class="mb-[60px] flex items-center justify-between">
           <p class="text-xs font-semibold capitalize">Your saving status</p>
           <button class="cursor-pointer">
@@ -47,7 +47,7 @@ import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue
         </div>
       </li>
 
-      <li class="rounded-[16px] bg-green-200 px-5 pt-2 pb-6">
+      <li class="flex flex-col justify-between rounded-[16px] bg-green-200 px-5 pt-2 pb-6">
         <div class="flex flex-col">
           <MasterCardIcon class="h-12 w-12" />
           <span class="text-[10px] mb-2 uppercase">Card number</span>
@@ -66,7 +66,7 @@ import UpcomingTransactionsList from "../components/UpcomingTransactionsList.vue
       </li>
     </ul>
     <StatisticsList class="mt-[80px] mb-[40px] py-[35px] border-y-2 border-gray-200" />
-    <div class="flex">
+    <div class="flex justify-between flex-wrap lg:flex-nowrap xl:">
       <LatestTransactionsList />
       <UpcomingTransactionsList />
     </div>

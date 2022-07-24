@@ -57,13 +57,13 @@ const upcomingTransactionListTomorrow = reactive([
 ]);
 </script>
 <template>
-  <div class="ml-4 flex-grow rounded-[20px] bg-white p-6">
+  <div class="ml-4 w-full rounded-[20px] bg-white p-6 lg:max-w-[360px]">
     <div class="mb-8 flex items-center justify-between">
       <h2 class="text-[17px] font-semibold capitalize text-gray-600">
         Upcoming Transactions
       </h2>
       <button
-        class="cursor-pointer text-sm font-medium capitalize text-darkgray hover:underline"
+        class="cursor-pointer text-sm font-medium capitalize whitespace-nowrap text-darkgray hover:underline"
       >
         View all
       </button>

@@ -47,7 +47,7 @@ const latestTransactionsList = reactive([
 </script>
 
 <template>
-  <div class="w-full max-w-[580px] p-6 bg-gray-50 rounded-[20px]">
+  <div class="w-full p-6 bg-gray-50 rounded-[20px] lg:max-w-[650px] xl:max-w-full">
     <div class="flex items-center justify-between mb-8">
       <h2 class="text-[17px] font-semibold capitalize text-gray-600">
         Latest Transactions

@@ -23,10 +23,10 @@ const settings = [
 ];
 </script>
 <template>
-  <aside class="flex w-72 flex-col px-4 pt-6 pb-6">
+  <aside class="flex flex-col max-w-[250px] w-full px-4 pt-6 pb-6 border-r-2 border-gray-200">
     <a
       href="#"
-      class="flex items-center pl-8 text-2xl font-semibold text-purple-700 focus:outline-none"
+      class="flex items-center text-2xl font-semibold text-purple-700 focus:outline-none"
     >
       <DashboardIcon class="mr-3 h-6 w-6 stroke-current" />
       <span class="font-semibold text-sm">Super Finti</span>
@@ -63,10 +63,10 @@ const settings = [
           </router-link>
         </li>
       </ul>
-    <div
-      class="fixed bottom-4 rounded-10 text-center bg-sky-300 bg-[url(/img/line-pattern.svg)] bg-top p-6 max-w-[250px] w-full"
+    <!-- <div
+      class="fixed bottom-4 rounded-10 text-center bg-sky-300 bg-[url(/img/line-pattern.svg)] bg-top p-6 pt-12 max-w-[210px] w-full"
     > 
-      <QuestionMarkIcon class="h-16 w-16 fill-orange-500 p-3 bg-white rounded-full transform translate-x-[100%] -translate-y-[50px]" />
+      <QuestionMarkIcon class="h-16 w-16 fill-orange-500 p-3 absolute bg-white rounded-full transform translate-x-[50px] -translate-y-[80px]" />
       <p class="capitalize font-semibold">Help center</p>
       <div class="mt-3 text-sm text-gray-400 max-w-30 w-full">Having trouble in Finti? Please contact us for more questions.</div>
       <button
@@ -74,6 +74,6 @@ const settings = [
       >
         Go to help center
       </button>
-    </div>
+    </div> -->
   </aside>
 </template>

@@ -35,7 +35,7 @@ const setBackground = computed(() => {
 </script>
 
 <template>
-    <li class="flex items-center justify-between">
+    <li class="flex items-center justify-between sm:shadow p-3 lg:shadow-none ">
         <div>
             <p class="font-semibold capitalize text-[11px] text-darkgray mb-2">{{ props.data.statsTitle }}</p>
             <div class="flex justify-between mb-2">

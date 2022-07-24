@@ -30,7 +30,7 @@ const statsList = reactive([
 </script>
 
 <template>
-    <ul class="grid grid-cols-3 gap-x-10">
+    <ul class="grid gap-x-10 sm:grid-cols-1 gap-y-5 md:grid-cols-2 lg:grid-cols-3">
         <StatisticsItem v-for="item in statsList" :data="item" :key="item.id"/>
     </ul>
 </template>
