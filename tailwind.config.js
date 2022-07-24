@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Poppins", "Arial", "sans-serif"],
+        open: ["Open Sans", "Arial", "sans-serif"],
       },
       screens: {
         'mobile': '375px',
