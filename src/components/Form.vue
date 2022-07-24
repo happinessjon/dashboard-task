@@ -45,7 +45,7 @@ const formData = reactive([
 </script>
 
 <template>
-    <Form @submit="onSubmit" class=" rounded-lg font-open max-w-[400px] grid grid-cols-1 gap-y-3 shadow-lg z-10 bg-white p-8 w-full" >
+    <Form @submit="onSubmit" class="transform -translate-y-[100px] rounded-lg font-open max-w-[400px] grid grid-cols-1 gap-y-3 shadow-lg z-10 bg-white p-8 w-full" >
       <Field v-for="field in formData" :key="field.label" :data="field" />
       <button class="bg-blue-400 py-2 px-5 mt-3 rounded-md text-white hover:bg-blue-500">Submit</button>
     </Form>
